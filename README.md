@@ -17,6 +17,6 @@ Both functions take the arguments below:
 >- Yi is a vector of the right censoring times, with size n 
 >- cen is the corresponding censoring indicator with 1 being cases and 0 being censored, with size n
 >- X is a covariate matrix for the incidence component with size n times the number of covariates
->- Z is a covariate matrix for the latency component with size n times the number of covariates; X and Z should not contain a column of 1 (i.e. no intercept is required); X can be completely, partially, or not different from Z.<br />
+>- Z is a covariate matrix for the latency component with size n times the number of covariates; X and Z do not contain a column of 1 (i.e. no intercept is required); X can be completely, partially, or not different from Z.<br />
 >- trace=FALSE by default. For tracking the converging path of the parameter estimation, set trace=TRUE 
 >- tolerance is the converging criteria typically assigned to be 0.0001
