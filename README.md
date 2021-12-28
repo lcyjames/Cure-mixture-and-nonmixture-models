@@ -19,4 +19,4 @@ Both functions take the arguments below:
 >- X is a covariate matrix for the incidence component with size n times the number of covariates
 >- Z is a covariate matrix for the latency component with size n times the number of covariates; X and Z do not contain a column of 1 (i.e. no intercept is required); X can be completely, partially, or not different from Z.<br />
 >- trace=FALSE by default. For tracking the converging path of the parameter estimation, set trace=TRUE 
->- tolerance is the converging criteria typically assigned to be 0.0001
+>- tolerance is the converging criteria typically assigned to be 10^{-4}
