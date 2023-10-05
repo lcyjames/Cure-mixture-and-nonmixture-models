@@ -4,7 +4,7 @@ This package performs parameter estimation for the cure mixture and nonmixture m
 # How to import the Functions
 > install.packages("devtools")<br />
 > library(devtools) <br /> 
-> source_url("https://github.com/lcyjames/WeibullCMs/blob/845d70f953b0ce692536bfd928fc0c72165fb4a8/CoreFunctions.R?raw=TRUE")
+> source_url("https://github.com/lcyjames/WeibullCMs/blob/main/CoreFunctions.R?raw=TRUE")
 
 # Functions
 > wmcmEM(Yi, cen, X, Z, trace=FALSE, tolerance=10^{-4}) <br />
